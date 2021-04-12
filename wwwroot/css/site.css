@@ -98,6 +98,16 @@ Button {
     font-family: Moderno;
 }
 
+a {
+    color: #ffffff;
+    margin: 0;
+    font-family: Moderno;
+    border: solid;
+    border-color: #e5e5e5;
+    color: inherit;
+    text-decoration: none;
+}
+
 #entranceButton {
     border: solid;
     border-width: 2px;
@@ -108,6 +118,8 @@ Button {
     top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #ffffff;
+    border: #ffffff;
 }
 
     #entranceButton:hover {
@@ -123,8 +135,6 @@ Button {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 
 #SplashMain {
     width: 100vw;
@@ -146,3 +156,13 @@ footer {
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
+}
+
+#column1{
+    width: 200px;
+    height: 500px;
+    border: solid;
+    border-color: #ffffff;
+    background-color: antiquewhite;
+    font-size: 200px;
+}

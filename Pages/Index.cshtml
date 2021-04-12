@@ -1,11 +1,11 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Welcome";
 }
 
     <div class="text-center">
         <img id="signature" src="~/images/signature.png"/>
         <h2 id="entranceText">Portfolio of Bryn Bowler</h2>
-        <button id="entranceButton">Enter</button>
+            <a id="entranceButton" asp-area="" asp-page="/Home">Enter</a>
     </div>

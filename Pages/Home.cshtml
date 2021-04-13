@@ -2,19 +2,38 @@
 @model Portfolio.Pages.HomeModel
 @{
     ViewData["Title"] = "Home page";
-}   
+}
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
 
 <body>
-    <div class="container">
-        <div class="col-sm">
-            <p id="entranceText">Hello</p>
+
+    <div class="container-fluid" id="mainheader">
+        <div class="modal-header">
+            <img id="signatureHome" src="~/images/signature.png" />
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 2%; text-align: center;">
+        <div class="row">
+            <div class="col-sm" style="border-style: none; background-color:#576CA8; border-color:#ffffff; border-radius: 25px; margin: 5px;">
+                <h2 style="padding: 5px;">Experience and Education</h2>
+            </div>
+            <div class="col-sm" style="border-style: none; background-color:#D0A3BF; border-color:#ffffff; border-radius: 25px; margin: 5px;">
+                <h2 style="padding: 5px;">Projects</h2>
+            </div>
+            <div class="col-sm" style="border-style: none; background-color:#E05652; border-color:#ffffff; border-radius: 25px; margin: 5px;">
+                <h2 style="padding: 5px;">Contact Me</h2>
+            </div>
+        </div>
+        <div class="container-fluid" id="experienceBody" style="text-align: center; background-color: #576CA8">
+            <div class="row">
+                <div class="col" style="margin: 5px; border: solid;">
+                    <h2>...</h2>
+                </div>
+                <div class="col-8" style="margin: 5px; border: solid;">
+                    <h2 style="padding: 5px;">...</h2>
+                </div>
+            </div>
         </div>
     </div>
 </body>
